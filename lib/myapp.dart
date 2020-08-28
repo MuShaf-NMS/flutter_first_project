@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
         title: new Text("My App"),
       ),
       body: new Container(
-          child: new Center(
-              child: new Column(
+          child: new Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -30,8 +30,13 @@ class MyApp extends StatelessWidget {
               )
             ],
           ),
+          Container(
+              alignment: Alignment.center,
+              child: new Text(
+                "Developer information :",
+                style: new TextStyle(fontSize: 25),
+              )),
           new Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               new RaisedButton(
                   color: Colors.blue,
@@ -54,7 +59,7 @@ class MyApp extends StatelessWidget {
             ],
           )
         ],
-      ))),
+      )),
     );
   }
 }

@@ -10,7 +10,7 @@ class Address extends StatelessWidget {
       body: new Container(
         child: new Center(
           child: new Text(
-            "I'm from Peteluan Rensing Village",
+            "Peteluan Rensing Village",
             style: new TextStyle(fontSize: 25),
           ),
         ),

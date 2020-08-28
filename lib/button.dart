@@ -7,16 +7,15 @@ class Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Card(
-        child: new IconButton(
-            icon: Icon(
-              icon,
-              size: 50,
-            ),
-            onPressed: () {
-              Navigator.pushNamed(context, route);
-            }),
-      ),
+      padding: EdgeInsets.all(10),
+      child: new IconButton(
+          iconSize: 75,
+          icon: Icon(
+            icon,
+          ),
+          onPressed: () {
+            Navigator.pushNamed(context, route);
+          }),
     );
   }
 }

@@ -10,7 +10,7 @@ class Name extends StatelessWidget {
       body: new Container(
         child: new Center(
           child: new Text(
-            "My name is Muhammad Shafa",
+            "Muhammad Shafa",
             style: new TextStyle(fontSize: 25),
           ),
         ),
