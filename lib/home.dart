@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'contoh.dart';
 
-class Android extends StatelessWidget {
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text("Android"),
+        title: new Text("Home"),
       ),
       body: new Contoh(
-        icon: Icons.android,
-        text: "This is android's icon",
-        color: Colors.green,
+        icon: Icons.home,
+        text: "This is home's icon",
+        color: Colors.orange,
       ),
     );
   }

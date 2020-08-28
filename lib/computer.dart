@@ -11,6 +11,7 @@ class Computer extends StatelessWidget {
       body: new Contoh(
         icon: Icons.computer,
         text: "This is computer's icon",
+        color: Colors.brown,
       ),
     );
   }

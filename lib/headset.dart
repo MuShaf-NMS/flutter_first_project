@@ -11,6 +11,7 @@ class Headset extends StatelessWidget {
       body: new Contoh(
         icon: Icons.headset,
         text: "This is headset's icon",
+        color: Colors.red,
       ),
     );
   }

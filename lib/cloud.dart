@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'contoh.dart';
 
-class Android extends StatelessWidget {
+class Cloud extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text("Android"),
+        title: new Text("Cloud"),
       ),
       body: new Contoh(
-        icon: Icons.android,
-        text: "This is android's icon",
-        color: Colors.green,
+        icon: Icons.cloud,
+        text: "This is cloud's icon",
+        color: Colors.grey,
       ),
     );
   }

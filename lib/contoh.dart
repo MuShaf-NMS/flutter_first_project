@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 class Contoh extends StatelessWidget {
   final String text;
   final IconData icon;
-  Contoh({this.text, this.icon});
+  final Color color;
+  Contoh({this.text, this.icon, this.color});
   @override
   Widget build(BuildContext context) {
     return new Container(
@@ -14,7 +15,7 @@ class Contoh extends StatelessWidget {
             new Icon(
               icon,
               size: 100,
-              color: Colors.green,
+              color: color,
             ),
             new Text(text,
                 style: new TextStyle(

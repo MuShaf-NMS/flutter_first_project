@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children: <Widget>[
               new Button(
                 icon: Icons.android,
                 route: '/android',
@@ -27,6 +27,24 @@ class MyApp extends StatelessWidget {
               new Button(
                 icon: Icons.headset,
                 route: '/headset',
+              )
+            ],
+          ),
+          new Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              new Button(
+                icon: Icons.cloud,
+                route: '/cloud',
+              ),
+              new Button(
+                icon: Icons.camera_alt,
+                route: '/camera',
+              ),
+              new Button(
+                icon: Icons.home,
+                route: '/home',
               )
             ],
           ),
